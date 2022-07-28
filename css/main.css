@@ -1,0 +1,152 @@
+/* hero */
+
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--white-logo-color);
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* hero button */
+
+.button {
+    color: var(--white-logo-color);
+    background-color: #2196F3;
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* section */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    margin-top: 94px;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* feature-list */
+
+.feature-list {
+    margin-top: 0;
+}
+
+.feature-list.list {
+    display: flex;
+}
+
+.feature-list .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature-list .title {
+    color: var(--title-text-color);
+    margin-top: 30px;
+    margin-bottom: 0;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* feature-list images */
+
+.worklist {
+    display: flex;
+}
+
+.worklist .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* section team */
+
+.section-title.team {
+    margin-top: 0;
+}
+
+.team-list.list {
+    display: flex;
+}
+
+.member:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.team-list .text {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
+/* section clients */
+
+.section-title.clients {
+    margin-top: 0;
+}
+
+.clients-list {
+    display: flex;
+}
+
+.client:not(:last-child) {
+    padding-right: 30px;
+}
